@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Transcendental | Desenvolvedora de Sistemas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cursor personalizado -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navbar transcendental -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#" data-aos="fade-right">
+                <span class="gradient-text">&lt;/&gt; Portfolio</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section Transcendental -->
+    <section id="home" class="hero-section d-flex align-items-center justify-content-center text-white position-relative overflow-hidden">
+        <div class="particles-bg"></div>
+        <div class="container text-center position-relative z-3">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="hero-title mb-4">Caroline Bianca</h1>
+                <p class="hero-subtitle mb-5" data-aos="fade-up" data-aos-delay="300">
+                    Criando experiências digitais que transcendem o comum
+                </p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                    <a href="#projetos" class="btn btn-primary btn-lg me-3 glow-btn">
+                        <i class="bi bi-code-slash me-2"></i>Ver Projetos
+                    </a>
+                    <a href="#contato" class="btn btn-outline-light btn-lg glass-btn">
+                        <i class="bi bi-chat-dots me-2"></i>Contato
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="py-5 position-relative">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-content">
+                        <h2 class="section-title mb-4">Sobre Mim</h2>
+                        <p class="lead mb-4">
+                            Sou uma estudante apaixonada por Desenvolvimento de Sistemas, sempre em busca de 
+                            inovação e excelência técnica. Minha jornada é guiada pela curiosidade e pelo 
+                            desejo de criar soluções que impactem positivamente a vida das pessoas.
+                        </p>
+                        <p class="mb-4">
+                            Acredito que a tecnologia é uma ferramenta poderosa para transformar ideias em 
+                            realidade, e estou constantemente explorando novas fronteiras do desenvolvimento web.
+                        </p>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <h3 class="stat-number">15+</h3>
+                                <p class="stat-label">Projetos</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">2+</h3>
+                                <p class="stat-label">Anos Estudando</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">100%</h3>
+                                <p class="stat-label">Dedicação</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-image-container">
+                        <div class="floating-card">
+                            <img src="img/caroline.jpg" 
+                                 alt="Desenvolvedor" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades Section -->
+    <section id="habilidades" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">Habilidades & Tecnologias</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <h4>Frontend</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Bootstrap</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="85"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-server"></i>
+                        </div>
+                        <h4>Backend</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">API REST</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="70"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <h4>Ferramentas</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">VSCode</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">Figma</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="90"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-lightbulb"></i>
+                        </div>
+                        <h4>Soft Skills</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">Criatividade</span>
+                            <span class="skill-tag">Lógica</span>
+                            <span class="skill-tag">Teamwork</span>
+                            <span class="skill-tag">Adaptação</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="95"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos Section -->
+    <section id="projetos" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">Projetos em Destaque</h2>
+            
+            <!-- Projeto Principal -->
+            <div class="featured-project mb-5" data-aos="fade-up">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="project-image-container">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop" 
+                                 alt="Projeto Principal" class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-tech">
+                                    <span class="tech-badge">HTML</span>
+                                    <span class="tech-badge">CSS</span>
+                                    <span class="tech-badge">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="project-content">
+                            <h3 class="project-title">Sistema de Tutoria</h3>
+                            <p class="project-description">
+                                Projeto mais significativo desenvolvido durante meus estudos. Um sistema completo 
+                                para gestão de escolhas de tutores com interface moderna e funcionalidades avançadas.
+                            </p>
+                            <ul class="project-features">
+                                <li><i class="bi bi-check-circle-fill"></i> Interface responsiva e intuitiva</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Sistema de autenticação</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Dashboard interativo</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Relatórios em tempo real</li>
+                            </ul>
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-primary me-3">
+                                    <i class="bi bi-eye me-2"></i>Ver Demo
+                                </a>
+                                <a href="#" class="btn btn-outline-primary">
+                                    <i class="bi bi-github me-2"></i>Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grid de Projetos -->
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-card-image">
+                            <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=250&fit=crop" 
+                                 alt="Clone Netflix">
+                            <div class="project-card-overlay">
+                                <div class="project-card-buttons">
+                                    <a href="#" class="btn btn-sm btn-light">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-light">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h4>Clone Netflix</h4>
+                            <p>Interface responsiva inspirada na Netflix com carrosséis interativos e design moderno.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-card-image">
+                            <img src="img/patinhas.jpg.png" 
+                                 alt="Site Pets">
+                            <div class="project-card-overlay">
+                                <div class="project-card-buttons">
+                                    <a href="#" class="btn btn-sm btn-light">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-light">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h4>Site Pets</h4>
+                            <p>Plataforma dedicada a pets com informações sobre adoção, cuidados e dicas especializadas.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-card-image">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop" 
+                                 alt="E-commerce">
+                            <div class="project-card-overlay">
+                                <div class="project-card-buttons">
+                                    <a href="#" class="btn btn-sm btn-light">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-light">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h4>E-commerce Moderno</h4>
+                            <p>Loja virtual completa com carrinho de compras, sistema de pagamento e painel administrativo.</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="py-5 bg-dark text-white position-relative">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title mb-4" data-aos="fade-up">Vamos Conversar?</h2>
+                    <p class="lead mb-5" data-aos="fade-up" data-aos-delay="200">
+                        Estou sempre aberto a novas oportunidades e colaborações. 
+                        Entre em contato e vamos criar algo incrível juntos!
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>carolinebianca2706@gmail.com</p>
+                        <a href="mailto:carolinebianca2706@gmail.com" class="contact-link">Enviar Email</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                        <h4>LinkedIn</h4>
+                        <p>Conecte-se comigo</p>
+                        <a href="#" class="contact-link">Ver Perfil</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="bi bi-github"></i>
+                        </div>
+                        <h4>GitHub</h4>
+                        <p>Veja meus repositórios</p>
+                        <a href="https://github.com/querolaine10" class="contact-link">Explorar Código</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-black text-white text-center">
+        <div class="container">
+            <p class="mb-0">
+                &copy; 2025 Portfólio Transcendental. Desenvolvido com 
+                <i class="bi bi-heart-fill text-danger"></i> por Caroline bianca e <a href="https://github.com/LuizM18" class="admin">LuizM18</a>.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
